@@ -7,7 +7,7 @@ from mail import emailnote
 
 def uvalue():
 
-	emailnote()
+	
 	import math
 
 	ther_exp = 3.2717E-3

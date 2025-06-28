@@ -33,7 +33,7 @@ def sign_out():
         st.error(f"Logout failed: {e}")
 
 def main_app(user_email):
-    st.title("🎉 Welcome Page")
+    st.title("✉︎| management@fabrix360.com")
     st.success(f"Welcome, {user_email}! 👋")
     main()
     if st.button("Logout"):
@@ -69,7 +69,7 @@ We bring to our clients reliable, immediate productive and experienced resources
     if option == "Sign Up" and st.button("Register"):
         user = sign_up(email, password)
         if user and user.user:
-            st.success("Registration successful. Please log in.")
+            st.success("Well done! now please confirm your email(go to your inbox) then log in.")
 
     if option == "Login" and st.button("Login"):
         user = sign_in(email, password)
