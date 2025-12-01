@@ -41,10 +41,14 @@ def main_app(user_email):
 
 def auth_screen():
     logo = Image.open('images/logo360_s.png')
+    cushion = Image.open('images/cushionfinal.png')
     
         
     st.image(logo,
      caption='Project Management,Design,Marketing | fabrix360.com',
+     use_container_width=150)
+    st.image(cushion,
+     caption='Typical ETFE cushion',
      use_container_width=150)
     st.title(" ETFE design tools")
     option = st.selectbox("Choose an action:", ["Login", "Sign Up"])
