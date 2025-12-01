@@ -13,4 +13,4 @@ termcolor==1.1.0
 
 supabase==2.15.3
 dotenv
-pip
+setuptools.build_meta
